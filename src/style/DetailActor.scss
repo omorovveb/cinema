@@ -1,0 +1,16 @@
+#actor-detail{
+  padding: 40px 0;
+  color: white;
+  .actor-detail{
+    display: flex;
+    padding-bottom: 10%;
+    align-items: start  ;
+    &--titles{
+      padding-left: 7%;
+      .view-more{
+        color: skyblue;
+        cursor: pointer;
+      }
+    }
+  }
+}
