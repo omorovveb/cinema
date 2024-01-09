@@ -2,7 +2,7 @@ import React, {useContext, useEffect, useState} from 'react';
 import axios from "axios";
 import {useParams} from "react-router-dom";
 import {APIKEY} from "../../ApiKey";
-import Slider from "react-slick";
+// import Slider from "react-slick";
 import ActorMovies from "./ActorMovies";
 import {LanguageContext} from "../../context";
 
@@ -24,7 +24,7 @@ const ActorDetail = () => {
     }
     useEffect(() => {
         getDetailActor(actorId, APIKEY)
-    }, [Language])
+    }, )
     return (
         <div id='actor-detail'>
             <div className='container'>
